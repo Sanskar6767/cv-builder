@@ -1,0 +1,118 @@
+.sidebar{
+    background-color: rgb(41, 41, 52);
+    display:flex;
+    width: 40vw;
+    box-sizing: border-box;
+    flex-grow: 1;
+    padding: 2em 4em;
+    flex-direction: column; 
+    align-items: flex-start; 
+    height: 100%;
+    gap: 20px;
+    overflow-x: hidden;
+}
+
+.sidebar .form-wrapper{
+    display: flex;
+    flex-grow: 0;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.form-cloud {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-radius: 32px;
+    padding: 1em;
+}
+
+.cloud-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0 1.4em;
+}
+
+.show-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+.show-form>div{
+    display: flex;
+    gap: 24px;
+}
+
+.show-form>div>label{
+    width: 110px;
+}
+
+.show-form>div input, .show-form>div textarea{
+    width: 100%;
+    border-radius: 8px;
+    padding: 0.5em;
+    background-color: #9a9898;
+    box-sizing: border-box;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.cls-btn{
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.education-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4em;
+    padding: 12px;
+}
+
+.education-card{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.education-card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.education-card-info p, .education-card-info h3, .education-card-info h4{
+    margin: 0;
+}
+
+.education-card-actions{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.edit-btn, .delete-btn{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.edit-btn:hover{
+    background-color: #4ec1f3;
+    color: #000000;
+}
+
+.delete-btn:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+

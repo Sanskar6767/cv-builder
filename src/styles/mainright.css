@@ -1,0 +1,133 @@
+.mainright{
+    display: flex;
+    flex-direction: column;
+    padding: .8px 4em;
+    box-sizing: border-box;
+}
+
+.mainright-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainright-header h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* New styles for CV preview */
+.mainright-body {
+    padding: 2em;
+}
+
+.cv-preview {
+    background-color: white;
+    padding: 3em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-height: 842px; /* Approximately A4 height */
+    max-width: 21cm; /* A4 width */
+    margin: 0 auto;
+}
+
+.cv-basic-info {
+    margin-bottom: 2em;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 1em;
+}
+
+.cv-name {
+    font-size: 2em;
+    margin: 0 0 0.5em 0;
+    color: #2c3e50;
+}
+
+.cv-contact-info {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.cv-contact-info p {
+    margin: 0;
+}
+
+.cv-section {
+    margin-bottom: 1.5em;
+}
+
+.cv-section h3 {
+    color: #2c3e50;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.8em;
+}
+
+.cv-summary {
+    color: #555;
+    line-height: 1.6;
+}
+
+.cv-education{
+    display: flex;
+    padding: 1em 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cv-education h4 {
+    color: #2c3e50;
+    margin: 0 0 0.3em 0;
+}
+
+.cv-degree {
+    color: #555;
+    margin: 0 0 0.3em 0;
+    font-weight: 500;
+}
+
+.cv-dates {
+    color: #666;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.cv-experience {
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cv-experience:last-child {
+    border-bottom: none;
+}
+
+.cv-experience h4 {
+    color: #2c3e50;
+    margin: 0 0 0.3em 0;
+}
+
+.cv-position {
+    color: #555;
+    margin: 0 0 0.3em 0;
+    font-weight: 500;
+}
+
+.cv-description {
+    color: #666;
+    margin: 0.5em 0 0 0;
+    line-height: 1.4;
+}
+
+
+
+.cv-experience-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
